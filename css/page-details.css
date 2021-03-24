@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.banner{
+    width: 100%;
+    height: 60vh;
+    z-index: 10;
+    font-family: 'Playfair Display', serif;
+    background-color: #1d181e;
+    position: relative;
+}
+.banner .center{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30%;
+    left: 44%;
+    color: white;
+}
+.banner .navbar.navbar-expand-lg {
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    padding: 1.4rem 4.26rem;
+    z-index: 20;
+}
+.banner .navbar-brand .logo{
+    height: 100%;
+    width: 3.7rem;
+    margin-right: .6rem;
+}
+.banner .navbar .navbar-nav .nav-item{
+    margin: 0 2.885rem 0 0;
+}
+.banner .navbar .navbar-collapse button{
+    width: 3rem;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.banner .navbar .navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.banner .navbar .navbar-nav .nav-item.active{
+    position: relative;
+}
+.banner .navbar .navbar-nav .nav-item.active:after{
+    position: absolute;
+    content: "";
+    height: .1rem;
+    background:white;
+    width: 2.9rem;
+    left: 12%;
+    bottom: 0;
+}
+.banner .navbar-collapse button{
+    border: none;
+    background: none;
+}
+.banner .navbar-collapse img{
+    /* margin-left: 1.8rem */
+}
+.banner .navbar-collapse .cart{
+    margin-right: 0.5rem;
+}
+.banner .badge {
+    padding: 0 9px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+  
+.banner .label-warning[href],
+.banner .badge-warning[href] {
+    background-color: #f96882;
+}
+.banner #lblCartCount {
+    font-size: 12px;
+    background: #f96882;
+    color: #fff;
+    padding: 3px 5px;
+    margin-left: -15px;
+    margin-top: -15px; 
+}
+
+
+/*footer*/
+.footer-top{
+    height: 35vh;
+    background-color: #241d26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-top button{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 50%;
+}
+.footer-bottom{
+    height: 10vh;
+    background-color:#241d26;
+    border-top: 1px solid #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-top .fb{ background-color: #4a62a3}
+.footer-top .tw{ background-color: #0ca9e0}
+.footer-top .ig{ background-color: #ec2654}
+.footer-top h1{ 
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-weight: bold;
+}
+.footer-top p,
+.footer-bottom p{
+    font-family: 'Poppins', sans-serif;
+    font-size: .8em
+}
+
+.share .fb,
+.share .tw,
+.share .ig{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 50%;
+}
+.share .fb{ background-color: #4a62a3}
+.share .tw{ background-color: #0ca9e0}
+.share .ig{ background-color: #ec2654}
+.share h1{ 
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-weight: bold;
+}
+
+.blog{
+    height: 100rem;
+}
+.blog .col-md-8 h1,
+.blog .col-md-8 h6,
+.blog h6.text-muted,
+.blog .col-md-8 small,
+.blog .col-md-8 .italic,
+.blog .tessa,
+.blog h4 strong{
+    font-family: 'Playfair Display', serif;
+}
+.blog h5,
+.blog button,
+.blog .main-blog,
+.blog .col-md-9 p.text-muted{
+    font-family: 'Poppins', sans-serif;
+    font-size: .9em;
+}
+.blog .main-blog{
+    margin: 2rem 0
+}
+.blog small,
+.blog .italic{
+    font-style: italic;
+}
+.blog button{
+    border-radius: 0;
+    border: 1px  solid #e7e7e7;
+    color: #241d26;
+    font-weight: 500;
+}
+.blog button.btn{
+    margin:.5rem 0
+}
+.blog .col-md-4 {
+    padding-right: 0;
+    padding-left: 2rem;
+}
+
+.blog .col-md-9 {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.blog .col-md-8 {
+    padding-left: 0;
+    padding-right: 2rem;
+}
+.blog .main-img{
+    height: auto;
+    max-width: 100%;
+}
+
+.blog .col-md-8 h6.text-muted {
+    margin: 1.5rem 0;
+}
+
+.blog .col-md-4 h5.title {
+    margin: 1rem 0;
+}
+.blog .col-md-4 .navbar{
+    position: relative;
+    padding-left: 0
+}
+.blog .col-md-4 .navbar .my-2{
+    position: absolute;
+    right: 7%;
+    border: none;
+}
+.blog .col-md-4 .navbar .my-2:hover{
+    background-color: transparent;
+}
+
+.blog .col-md-4 input.form-control.mr-sm-2 {
+    border-radius: 0;
+    width: 21vw;
+}
+
+.blog .col-md-4 h4 {
+    margin: 1rem 0 1.5rem 0;
+}
+
+.blog .col-md-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog .col-md-2 {
+    padding-left: 1rem;
+    /* padding: 0; */
+}
+
+.blog .col-md-12.share {
+    margin: 1rem 0;
+    padding-left: 0;
+}
+
+.comment{
+    height: 116vh;
+    background-color: #f7f7f7;
+    padding: 3rem 20rem 3rem 12rem;
+}
+.comment strong,
+.comment .date{
+    font-family: 'Playfair Display', serif;
+}
+.comment .col-md-11{
+    padding-right: 35vw;
+}
+.comment .reply a{
+    float: right;
+    color: gray;
+    text-decoration: none;
+}
+.comment p,
+.comment .reply{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container.form .col-md-12 {
+    padding-left: 0;
+}
+
+.container.form {
+    padding-right: 15rem;
+}
+
+.container.form .form-group.col-md-12 input#inputName {height: 10rem;}
+
+.container.form .form-control {
+    border-radius: 0;
+}
+
+.comment button.btn.btn-primary {
+    background-color: black;
+    border-radius: 0;
+    width:  10rem;
+}

@@ -1,0 +1,17 @@
+@media (max-width: 992px){
+    .map{
+        display: flex;
+        flex-direction: column;
+        height: 40rem;
+    }
+}
+@media (max-width: 768px){
+    .map{
+        height: 60rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .map .left{
+        padding: 0
+    }
+}

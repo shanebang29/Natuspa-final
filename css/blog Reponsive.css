@@ -1,0 +1,13 @@
+@media (max-width: 768px){
+    .container.cardss{
+        padding: 0
+    }
+    .banner .navbar.navbar-expand-lg{
+        padding: .5rem 1rem;
+    }
+}
+@media (max-width: 575px){
+    .container.cardss{
+        height: 150rem;
+    }
+}

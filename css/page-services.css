@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    height: 60vh;
+    z-index: 10;
+    font-family: 'Playfair Display', serif;
+    background-image: url('../images/featured-bg.jpg');
+    position: relative;
+}
+.banner .center{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30%;
+    left: 44%;
+    color: white;
+}
+.banner .navbar.navbar-expand-lg {
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    padding: 1.4rem 4.26rem;
+    z-index: 20;
+}
+.banner .navbar-brand .logo{
+    height: 100%;
+    width: 3.7rem;
+    margin-right: .6rem;
+}
+.banner .navbar .navbar-nav .nav-item{
+    margin: 0 2.885rem 0 0;
+}
+.banner .navbar .navbar-collapse button{
+    width: 3rem;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.banner .navbar .navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.banner .navbar .navbar-nav .nav-item.active{
+    position: relative;
+}
+.banner .navbar .navbar-nav .nav-item.active:after{
+    position: absolute;
+    content: "";
+    height: .1rem;
+    background:white;
+    width: 2.9rem;
+    left: 12%;
+    bottom: 0;
+}
+.banner .navbar-collapse button{
+    border: none;
+    background: none;
+}
+.banner .navbar-collapse img{
+    /* margin-left: 1.8rem */
+}
+.banner .navbar-collapse .cart{
+    margin-right: 0.5rem;
+}
+.banner .badge {
+    padding: 0 9px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+  
+.banner .label-warning[href],
+.banner .badge-warning[href] {
+    background-color: #f96882;
+}
+.banner #lblCartCount {
+    font-size: 12px;
+    background: #f96882;
+    color: #fff;
+    padding: 3px 5px;
+    margin-left: -15px;
+    margin-top: -15px; 
+}
+
+/*=================FOOTER============================*/
+.social-media {
+    display: inline-block;
+    width: 50px;
+    line-height: 50px;
+    background-color: #ddd;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .5s;
+    margin-right: 10px;
+}
+.link-text {
+    text-transform: uppercase;
+    font-family: Playfair Display;
+    font-weight: 700;
+    transition: all .6s !important;
+    position: relative;
+    margin-left: 40px;
+}
+.social-media:hover{
+    cursor: pointer;
+    transform: scale(1.2, 1.2)
+}
+.link-text::before {
+    content: "";
+    width: 30px;
+    height: 1px;
+    position: absolute;
+    left: -40px;
+    top: 50%;
+    background-color: #f96882;
+}
+footer{
+    width: 100%;
+    height: 480px;
+    background-color: #241d26;
+    text-align: center;
+    overflow: hidden;
+}
+
+footer .footer-content{
+    padding: 85px 0 70px 0;
+    border-bottom: 1px solid #2e2c2f;
+}
+
+footer .sub-heading{
+    font-size: 20px;
+    line-height: 36px;
+    color: #aaa;
+    letter-spacing: .7px;
+}
+
+footer .slogan{
+    color: #aaa;
+    line-height: 34px;
+    font-size: 18px;
+    letter-spacing: .7px;
+}
+
+footer .footer-social{
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+footer .social-media:not(:last-child){
+    margin-right: 30px;
+}
+
+footer .social-popup-icon{
+    color: #fff;
+}
+
+footer .footer-bottom{
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    color: #aaa;
+}
+a.nav-item.nav-link {
+    margin:  0 !important;
+}
+
+.navbar a.div-cart {padding: 0 1rem;position: relative;}
+
+.story-video .arrow img {
+    max-width: 100%;
+    height: auto;
+}
+
+.services-section{
+    height: 950px;
+
+}
+.services-info {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.services-main-text {
+    max-width: 570px;
+    margin-top: 35px !important;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 18px;
+    color: #4F4D50;
+}
+
+.service {
+    text-align: center;
+}
+
+.services-icon-wrap {
+    color: #f96882;
+    font-size: 500%;
+    transition: all ease .5s;
+}
+.services-icon-wrap img{ cursor: pointer}
+
+
+.services-icon-wrap:hover {
+    transform: translate3d(-5px, -5px, 0) scale(1.1);
+}
+
+.service .heading {
+    font-family: Playfair Display;
+    margin: 18px 0 15px;
+    font-size: 22px;
+    letter-spacing: .7px;
+}
+
+.service .description {
+    color: #7C787D;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.text-linear-effect {
+    background-image: linear-gradient(90deg, #f96882, #f96882 50%, #241d26 0);
+    background-size: 200% 100%;
+    background-position: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all ease 1s;
+}
+.text-linear-effect:hover {
+    background-position: 0;
+    cursor: pointer;
+}
+.spacer-clearfix {
+    width: 100%;
+}
+.section-title {
+    font-family: Playfair Display;
+    text-transform: capitalize;
+    font-size: 36px;
+    letter-spacing: .6px;
+    margin-bottom: 15px;
+    position: relative;
+    text-align: center;
+}
+.section-title:after{
+    content: " ";
+    width: 50px;
+    height: 2px;
+    background-color: #f96882 !important;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.about-section {
+    position: relative;
+}
+
+/*sale*/
+.appointment-section {
+    background-image: url('../images/orderBackground.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.appointment-section .heading {
+    font-family: "Playfair Display", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.appointment-section .pre-heading {
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: .7px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.appointment-section .main-heading {
+    text-transform: uppercase;
+    font-size: 80px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+.appointment-section .sub-heading {
+    font-size: 32px;
+    letter-spacing: .8px;
+    color: #fff;
+}
+
+/* form ========== */
+.appointment-section .container {
+    max-width: 1200px !important;
+}
+.book-now-btn {
+    background-color: #f96882 !important;
+    font-family: 'Poppins', sans-serif;
+    color: #fff !important;
+    border-radius: 0 !important;
+    text-transform: uppercase;
+    padding: 12px 45px !important;
+    letter-spacing: .8px;
+}
+
+.book-now-btn:hover,
+.book-now-btn:active {
+    background-color: #241d26 !important;
+    transition: all ease .55s;
+    outline: none !important;
+}
+.form-input input,
+.your-service .current-option {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    margin-bottom: 30px;
+    padding: 14px 20px !important;
+    background-color: #fff;
+    box-shadow: 0 0 3px 3px rgba(54, 54, 54, 0.1);
+}
+
+.your-service .current-option,
+input::placeholder {
+    color: #888;
+    margin-bottom: 0 !important;
+}
+
+.form-input input:not(#datepicker):not(#appointment-submit):focus {
+    transform: scale(1.1);
+    transition: all ease .35s;
+}
+
+.your-service .current-option {
+    border-bottom: 1px solid #ddd;
+}
+
+.your-service {
+    position: relative;
+}
+
+.your-service .dropdown-icon {
+    font-size: 16px;
+    position: absolute;
+    top: 14px;
+    right: 36px;
+    color: #333 !important;
+    transition: all ease .5s;
+}
+
+.option-menu {
+    overflow-y: scroll;
+    opacity: 0;
+    height: 0;
+    margin: 0 !important;
+}
+
+.dropdown-icon i {
+    transition: all ease .5s;
+}
+
+.dropdown-icon i.rotate {
+    transform: rotate(-540deg);
+}
+
+.option-menu li {
+    width: 100%;
+    background-color: #fff;
+    padding: 14px 20px;
+    color: #888;
+    transition: all ease .35s;
+}
+
+.option-menu li:hover {
+    background-color: #f96882;
+    color: #fff;
+}
+
+.error {
+    position: absolute;
+    color: red;
+    top: 12px;
+    right: 44px;
+    font-weight: 500;
+    display: none;
+}
+
+.error span {
+    position: relative;
+    top: 3px;
+}
+
+.your-service .error {
+    right: 60px;
+}
+
+/*team*/
+.team {
+    height: 722px;
+}
+.team .space{
+    width: 100%;
+    height: 50px;
+}
+.sub-heading {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4F4D50;
+    letter-spacing: .5px;
+    max-width: 570px;
+    margin: 30px auto 0;
+}
+.team-item {
+    max-width: 370px;
+    max-height: 450px;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    margin-right: 30px;
+    cursor:  pointer;
+}
+
+.team-item .information {
+    font-family: 'Playfair';
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.team-item .information .name {
+    color: #fff;
+    font-size: 26px;
+    letter-spacing: .7px;
+}
+
+.team-item .information .position {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(255, 255, 255, .7);
+}
+
+.team-item .social-media-icons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    opacity: 0;
+    transform: translateX(200%);
+    transition: all ease .5s;
+    list-style: none;
+}
+.change-color-icon {
+    color: white;
+    font-size: 18px;
+    transition: .5s ease;
+}
+
+.team-item .social-media {
+    width: 40px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    text-align: center;
+    border-radius:50%;
+    cursor: pointer;
+    transition: .5s ease
+}
+.team-item .social-popup-icon{
+    color: black;
+}
+.team-item i{
+    transition: .5s ease;
+}
+.team-item .social-media:hover {
+    background-color: #f96882;
+    transition: .5s ease;
+    transform: scale(1.2 ,1.2);
+}
+
+.team-item img {
+    transition: all ease .5s;
+    max-width: 100%;
+}
+
+.team-item:hover img {
+    filter: blur(3px);
+    transform: scale(1.1, 1.1);
+}
+
+.team-item:hover .social-media-icons {
+    transform: translateX(0);
+    opacity: 1;
+}

@@ -1,0 +1,336 @@
+
+@media (min-width: 992px){
+    .navbar .navbar-nav .nav-item{
+        margin: 0;
+    }
+}
+@media (min-width: 1200px){
+    .navbar .navbar-nav .nav-item{
+        margin: 0 1.5rem 0 0;
+    }
+}
+@media (max-width: 992px){
+    .carousel-inner .carousel-item .carousel-caption{
+        bottom: 10% !important;
+    }
+    /*banner*/
+    .banner .navbar-expand-lg{
+        padding: .5rem 1rem;
+    }
+
+    /*service*/
+    .container.services{
+        display: inline-block;
+        height: 85vw;
+        max-width: 100%;
+    }
+    .container.services .title{
+        height: 10vw;
+    }
+    .container.services .services-grid{
+        height: 100%;
+    }
+    .services .first{
+        display: none;
+    }
+    .services .col-md-6 h1::after{
+        display: none;
+    }
+    .services .col-md-6 h1{
+        margin-bottom: 0 !important;
+    }
+
+    /*our story video*/
+    .container-fluid.story-video{
+        display: inline-block!important;
+        height: 60vw;
+        padding-top: 3rem;
+    }
+    .container-fluid.story-video .align-video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-fluid.story-video .description{
+        padding: 0 1.5rem 0 0
+    }
+    .container-fluid.story-video .title{
+        margin: .5rem 0
+    }
+    .container-fluid.story-video .description h1:after{ 
+        bottom: -10%;
+    }
+    .container-fluid.story-video .description a:after{
+        left: -30%
+    }
+
+    /*our client*/
+    .client .col-lg-6{
+        padding-bottom: 2rem
+    }
+
+    /*sale*/
+    .sale{
+        margin-bottom: 1.5rem;
+    }
+    .sale .btn.btn-primary{
+        width: 100%;
+        height: 100%;
+    }
+    .sale h4{
+        right: -18%;
+        top: 47%;
+    }
+    /*pricing plan*/
+    .pricing-plan .first{
+        height: 20vw;
+    }
+    .pricing-plan .second{
+        height: 45vw;
+        padding: 0 5rem;
+    }
+    .pricing-plan .second .col-md-6{
+        margin-bottom: 1rem;
+    }
+    .pricing-plan .letters{
+        display: none;
+    }
+    .pricing-plan .second  {
+        padding: 0 5vw
+    }
+    .pricing-plan .col-md-12.first{
+        padding: 0 22vw
+    }
+
+
+
+    /*package*/
+    .package{
+        height: 75vw;
+        display: inline;
+        padding-bottom: 2rem
+    }
+    .package .col-md-3{
+        padding: 1rem
+    }
+
+
+    /*reason*/
+    .reason{
+        height: 45vw;
+    }
+    .reason .right{
+        padding-left: 2rem;
+        text-align: center;
+    }
+    .reason .large-text{
+        font-size: 4rem;
+    }
+    .reason .col-md-6 .col-md-3{
+        padding-left: 0;
+        text-align: center
+    }
+
+    /*our team*/
+    .team{
+        height: 39rem;
+    }
+    .team .col-md-4{
+        padding-top: 35% !important;
+        height: 20rem;
+    }
+
+    /*blog posts*/
+    .blog {
+        display: inline-block;
+        height: 90vw;
+    }
+    .blog .col-md-3{
+        padding: 1rem
+    }
+    .blog .second{
+        padding-left: 10vw;
+    }
+    .blog .second .read-more{
+        margin-left: 2rem !important;
+        /* margin-left: 0; */
+    }
+    .blog .read-more:after{
+        /* left: -30% */
+        display: none;
+    }
+
+    /*map*/
+    .map{
+        display: inline-block;
+        height: 45rem;
+        padding: 1rem 0;
+    }
+    .map .left{
+        padding: 1rem 1rem 1rem 0
+    }
+    .map .right{
+        padding: 1rem 0 1rem 1.5rem
+    }
+    .map .left img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px){
+    
+    .carousel-inner .carousel-item img{
+        width: 140% !important;
+    }
+    .banner{
+        height: 65vw;
+    }
+    
+    
+    /*services*/
+    .container.services{
+        height: 205vw;
+        max-width: 100%;
+        padding-bottom: 10vw;
+    }
+    .services .services-grid .col-md-4{
+        height: 24vw;
+    }
+    .services .services-grid .col-md-4 h4{
+        margin: .1rem 0
+    }
+    .services .col-md-4 img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /*story video*/
+    .container-fluid.story-video{
+        height: 110vw;
+        display: inline !important;
+    }
+    .container-fluid.story-video .description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 2rem 3rem 2rem;
+        text-align: center;
+    }
+    .container-fluid.story-video .description h1:after{
+        left: 50%
+    }
+    .description a{
+        margin-left: 0;
+    }
+    .description a:after{
+        display: none;
+    }
+
+    /*client*/
+    .client h1:after{
+        left: 45%;
+    }
+
+    /*sale*/
+    .sale{
+        height: 41rem!important;
+        padding-top: 1rem !important;
+    }
+    .sale .col-md-7{
+        padding: 0 25vw
+    }
+    .sale .large-text{
+        font-size: 3em;
+    }
+    .sale h5{
+        display: none;
+    }
+    .sale h3{
+        margin-bottom: 1rem !important
+    }
+    .sale .btn.btn-primary{
+        height: 100% !important;
+    }
+    /*pricing plan*/
+    .pricing-plan .col-md-12.first{
+        padding: 0 20vw;
+    }
+    .pricing-plan .col-md-12.second{
+        height: 47rem;
+        padding: 0 12vw;
+    }
+    .pricing-plan .bottom{
+        height: 15rem;
+    }
+    .pricing-plan .bottom img{
+        
+    }
+    /*package*/
+    .package .price:after{
+        display: none;
+    }
+    .package h6 a:after{
+        display: none;
+    }
+    .package h6 a{
+        margin-left: 0;
+    }
+    /*reason*/
+    .reason{
+        height: 50rem;
+    }
+    /*team*/
+    .team{
+        display: inline;
+    }
+    /*blog*/
+    .blog{
+        display: inline;
+    }
+    /*team*/
+    .team .col-md-4{
+        height: 24rem;
+        /* max-width: 55%; */
+    }
+    /*map*/
+    .map{
+        height: 91rem;
+    }
+    .map .left img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px){
+    .container-fluid.story-video{
+        /* height: 210vw; */
+        /* display: inline !important; */
+    }
+    .pricing-plan .col-md-6 .left img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 1200px){
+    .pricing-plan .col-md-12 .second{
+        padding: 0 10vw
+    }
+    .pricing-plan .col-md-12 .bottom{
+        padding: 0
+    }
+}
+
+@media (max-width: 625px){
+    .services .services-grid .img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 556px){
+    .services .col-md-4 .capture{
+        display: none
+    }
+}
